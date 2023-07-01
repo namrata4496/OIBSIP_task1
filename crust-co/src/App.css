@@ -1,0 +1,282 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.button-42 {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  white-space: nowrap;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
+}
+
+.button-42:hover {
+  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Jura:400');
+* { font-family: Jura, Arial; font-weight: 400; }
+body { margin: 0; padding: 0; }
+h1,h2,h3,h4,h5,h6,p { margin: 0; }
+
+section#entry-page {
+  display: grid;
+  grid-template-columns: 1fr minmax(200px,400px) 1fr;
+  grid-template-rows: 1fr minmax(auto,1fr) 1fr;
+  grid-gap: 10px;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+  box-sizing: border-box;
+}
+  form {
+    grid-column: 2;
+    grid-row: 2;
+    display: grid;
+    grid-gap: 10px;
+    margin: auto 0;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 10px;
+    box-shadow: 0 32px 64px rgba(0,0,0,0.2);
+  }
+    h2 {
+      margin-bottom: 5px;
+      text-align: center;
+      text-shadow: 0 4px 16px #fff;
+      font-size: 30px;
+      font-weight: 100;
+    }
+   fieldset {
+      margin: 0;
+      background-color: #fff;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    }
+     legend {
+        padding: 5px;
+        background-color: #fff;
+        border-radius: 5px;
+      }
+       ul {
+        margin: 0;
+        padding: 0;
+      }
+       li {
+          display: grid;
+          align-items: center;
+          margin: 10px;
+        }
+         li a {
+            text-align: start;
+            color: #02c;
+          }
+          em {
+            grid-column: span 2;
+            text-align: center;
+            padding: 5px;
+          }
+          label {
+            text-align: left;
+            padding-bottom: 2px;
+          }
+          input {
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+          }
+            input:hover {
+              border: 1px solid #aaf;
+            }
+          
+        
+      
+    
+    button {
+      padding: 10px;
+      border:1px solid rgba(0,0,0,0);
+      border-radius: 5px;
+      background: #fff;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    }
+      button:hover {
+      
+        border: 1px solid #aaf;
+      }
+    
+  
+
+@media only screen and (min-width: 420px) {
+ 
+   form h2 {
+      font-size: 40px;
+    }
+   
+   
+      form fieldset ul  li {
+          grid-template-columns: 100px 1fr;
+      }
+          form fieldset ul li label {
+            padding-right: 10px;
+            padding-bottom: 0;
+            text-align: right !important;
+          }
+        }
+      
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS */
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  color:white;
+  position: relative;
+  background-color: rgba(0,0,0,0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #c23415;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
